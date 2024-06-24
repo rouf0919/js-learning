@@ -1,3 +1,5 @@
+// package your code and use its copy anywhere
+// in curley bracess there is function scope or means to its defination 
 function sayMyName(){
     console.log("A")
     console.log("B")
@@ -39,7 +41,7 @@ function loginUserMessage(user){
 }
 console.log(loginUserMessage("Rauf"))
 
-// rest operator in function
+// rest or spread operator in function
 function calculateCartPrice(...num1){
     return num1
 }
