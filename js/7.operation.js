@@ -1,3 +1,5 @@
+//*****************Operation******************//
+
 let value = 3
 let negativeValue = -value
 console.log(negativeValue)
@@ -29,4 +31,5 @@ console.log(+"")
 
 let gameCounter = 100
 gameCounter++;
+++gameCounter;
 console.log(gameCounter)

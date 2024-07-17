@@ -37,33 +37,3 @@ const newArr = ["js", "rb", "cpp", "java"]
 for(const key in newArr){
     console.log(newArr[key])
 }
-
-
-//for each loop
-const coding = ["js", "rb", "cpp", "java", "python"]
-coding.forEach(function (item){
-    // console.log(`language name ${item}`)
-})
-coding.forEach( (item) => {
-    console.log(`language name ${item}`)
-})
-
-// forEach by refrence function
-function printMe(item){
-    console.log(item)
-}
-coding.forEach(printMe)
-
-coding.forEach( (key, index, arr)=> {
-    console.log(key, index, arr)
-}) // foreach also give another values
-
-const myCoding = [
-    {languageName: "javascripts",languageFileName: "js"},
-    {languageName: "c++",languageFileName: "cpp"},
-    {languageName: "swift by apple",languageFileName: "swift"},
-    {languageName: "ruby",languageFileName: "rb"}
-]
-myCoding.forEach( (key)=> {
-    console.log(key.languageFileName)
-})
